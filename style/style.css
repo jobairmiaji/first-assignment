@@ -75,6 +75,10 @@ header {
     margin: auto;
 }
 
+.hero-section p {
+    margin-top: 24px;
+}
+
 .hero-section .active-btn {
     margin-top: 32px;
     padding-right: 26px;
