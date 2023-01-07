@@ -2,4 +2,236 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Reuseable style */
+
+section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444343;
+}
+
+ul {
+    list-style: none;
+}
+
+.active-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f15b22;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 36px;
+}
+
+/* Header and Hero Section Style */
+
+header {
+    height: 100vh;
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+}
+
+.hero-section {
+    text-align: right;
+    padding-top: 250px;
+    padding-left: 560px;
+    width: 1140px;
+    margin: auto;
+}
+
+.hero-section .active-btn {
+    margin-top: 32px;
+    padding-right: 26px;
+    padding-left: 26px;
+    background: #f15b22;
+    color: white;
+}
+
+/* Failure Section style */
+
+.failures-section {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.failures-section p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failures-section ul li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+/* Plan Section Style */
+
+.plan-section {
+    margin-bottom: 130px;
+}
+
+.plan-section .sec-title {
+    text-align: center;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-title {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* Call Section Style */
+
+.call-section {
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    background-blend-mode: multiply;
+    height: 300px;
+    margin-bottom: 130px;
+}
+
+.call-content {
+    padding: 59px 617px 59px 64px;
+}
+
+.call-content h3 {
+    color: white;
+    margin-bottom: 24px;
+}
+
+/* Services Section style */
+
+.our-services {
+    margin-bottom: 130px;
+}
+
+.our-services .sec-title {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+.service-item {
+    padding: 22px;
+    border-radius: 5px;
+    background: #fff4d6;
+}
+
+.service-item h4 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.service-item p {
+    text-align: left;
+}
+
+/* Footer Section Style */
+
+footer {
+    background: #151414;
+}
+
+.footer-section {
+    width: 1140px;
+    margin: auto;
+    color: white;
+    display: flex;
+    gap: 330px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contacts {
+    flex-basis: 65%;
+}
+
+.subscribe {
+    flex-basis: 35%;
+}
+
+.contact-path p {
+    margin-bottom: 15px;
+}
+
+.contacts > p {
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    background: #151414;
+}
+
+footer ul li {
+    margin-top: 15px;
+    padding-right: 17px;
+}
+
+.subscribe input[type="email"] {
+    margin-top: 31px;
+    margin-bottom: 16px;
+    padding: 18px;
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #151414;
 }
